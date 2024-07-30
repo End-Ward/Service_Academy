@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: #fff; /* Adjust background color */
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.hero-section {
+    background-color: #f8f9fa; /* Adjust background color */
+    padding: 100px 0;
+}
+
+.agenda-section {
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+    .agenda-section h2 {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+.agenda-card {
+    border: none;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in-out;
+    height: 350px; /* Fixed height for uniformity */
+}
+
+    .agenda-card .card-img-top {
+        height: 200px; /* Adjust height as needed */
+        object-fit: cover;
+    }
+
+    .agenda-card .card-body {
+        flex: 1; /* Ensures the body takes up the remaining space */
+    }
+
+footer {
+    background-color: #fff;
+    color: black;
+    text-align: center;
+    padding: 10px 0;
+}
+.navbar {
+    background-color: #fff; /* Adjust background color */
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.hero-section {
+    background-color: #f8f9fa; /* Adjust background color */
+    padding: 100px 0;
+}
+
+.agenda-card {
+    border: none;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in-out;
+}

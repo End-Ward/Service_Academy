@@ -1,0 +1,42 @@
+﻿@{
+    ViewData["Title"] = "Home";
+}
+
+<section class="hero-section">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-md-6">
+                <h1>Build Skills With <br>Online Course</h1>
+                <p>At Batangas State University, we are committed to deliver satisfaction service.</p>
+                <button class="btn btn-primary">Enroll Now</button>
+            </div>
+            <div class="col-md-6">
+                <img src="~/images/banner.jpg" alt="Banner Image" class="img-fluid">
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="agenda-section mt-5 mb-5">
+    <div class="container">
+        <h2 class="text-center">12 Agendas</h2>
+        <div class="row">
+            @foreach (var agenda in ViewBag.Agendas)
+            {
+                <div class="col-md-4 mb-4">
+                    <div class="card agenda-card">
+                        <img src="~/images/@agenda.Image" alt="@agenda.Title" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">@agenda.Title</h5>
+                            <p class="card-text">@agenda.Description</p>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+</section>
+
+<footer class="bg-light text-center py-3">
+    <p>&copy; 2024 - Service Academy</p>
+</footer>
